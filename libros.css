@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton &familia = Merriweather:peso@700 & display=swap');
+
+body{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #2F1A49; 
+}
+
+
+
+.nav{
+    background-color: #00165E;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Merriweather', serif;
+    padding: 0 1rem;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav img{
+    height: 75px;
+    width: 52px;
+    margin-right: 1rem;
+
+}
+
+.nav div a{
+    text-decoration: none;
+}
+
+.nav div a h1{
+    font-size: 2rem;
+    color:#D0B36A ;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav ul li{
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #D0B36A;
+    
+}
+
+.nav ul li a:hover{
+    color: #B535F6;
+}
+
+
+
+.menu {
+    display: block;
+    position: relative;
+    height: 76px;
+    width: 120px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Bordes superiores */
+  
+  .menu.servicios {
+    border-top: #2D004D 0.3em solid;
+  }
+  
+  .menu.recursos {
+    border-top: #2D004D 0.3em solid;
+  }
+  
+  .menu.proyectos {
+    border-top: #2D004D 0.3em solid;
+  }
+  
+  .menu.contacto {
+    border-top: #2D004D 0.3em solid;
+  }
+  
+  /* Atributos y transición */
+  
+  .menu > span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+  }
+  
+  .menu:after, .menu > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding: 2em 0 1.5em;
+  }
+  
+  .menu:after {
+    content: attr(data-title);
+    width: 100%;
+    background:#2D004D;
+     
+  }
+  
+  .menu > span > span {
+    width: 120px;
+    color: #fff;
+
+  }
+  
+  .menu.servicios > span > span {
+    background: #D0B36A;
+  }
+  
+  .menu.proyectos > span > span {
+    background: #D0B36A;
+  }
+  
+  .menu.recursos > span > span {
+    background: #D0B36A;
+  }
+  
+  .menu.contacto > span > span {
+      background: #D0B36A;
+  }
+  
+  /* Lo que pasa con hover */
+  
+  .menu:hover > span {
+      height: 100%; 
+  }
+  
+  /* Dando formato a lista */ 
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    font-family: sans;
+  }
+
+   /*Diseño de las tarjetas*/
+
+.titulo{
+    color:#D0B36A;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    text-align: center;
+    margin: 10px 140px 30px 140px;
+  
+  
+  }
+  
+  .bloque1{
+    padding-left: 250px;
+  }
+  
+  .card{
+    width: 260px;
+    height: 380px;
+    border: 2px;
+    border: solid;
+    color:#9600b4;
+    border-radius: 4px;
+    box-shadow:4px 4PX 4PX 4PX #000;
+    
+  }
+  
+  .cajaTarjeta{
+    width: 259px;
+    height: 300px;
+    object-fit:contain;
+    background-color:#000;
+    
+   
+    
+  }
+  
+  .card-data-titles{
+    background-color: #6CABF7;
+    color: white;
+    border-radius: 1px;
+    display: flex;
+    text-align: center;
+
+  }
+  
+  figure{
+    background-color: #000;
+  }
+  
+  .card-data-alias{
+    color:#D0B36A;
+    
+    letter-spacing: 1px;
+    display: flex;
+    text-align: center;
+  
+  }
+  
+  .Flex-container{
+    display: flex;
+    flex-direction:row;
+   
+    
+  }
+  
+  .BLOQUE1{
+    box-shadow: white  3PX  3PX 3PX 5PX;
+  }
+
+  .bloque2{
+    padding-left: 420px;
+  }
+
+
+
+
+  footer{
+    height: 75px;
+    background-color: #00165E;
+    opacity: 70%;
+  }
