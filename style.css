@@ -170,7 +170,7 @@ body{
 
   .galeria-de-imagenes{
     display: flex;
-    width: 1924px;
+    width: auto;
     height: 300px;
     margin-top: 10px;
      
